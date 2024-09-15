@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.scrollhide{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.event-content {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word; /* Ensures text wraps */
+    font-size: 0.875rem; /* Adjust font size if necessary */
+  }
+  
+  .event-description {
+    white-space: normal; /* Allows text to wrap */
+    padding-left: 1em; /* Indent list items */
+  }
+  
+  .event-description ul {
+    padding-left: 1em; /* Ensure list is indented */
+  }

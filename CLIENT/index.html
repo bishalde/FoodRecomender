@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalC_AI</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,600,700">
+    <script src="./src/jsfunctions/angular-sanitize.min.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+    <script async="" src="./src/jsfunctions/gtm.js"></script>
+    <script src="./src/jsfunctions/jquery.min.js"></script>
+    <script src="./src/jsfunctions/bootstrap.min.js"></script>
+    <script src="./src/jsfunctions//jquery-ui.min.js"></script>
+    <script src="./src/jsfunctions/angular.min.js"></script>
+    <script>window.angular || document.write('<script src="libraries/angular.min.js?v=1.8.2"><\/script>');</script><script src="./src/jsfunctions/angular.min_1.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script>
+    if (typeof moment === 'undefined') {
+        document.write('<script src="libraries/moment.min.js?v=2.29.1">\x3C/script>');
+    }
+    </script><script src="js/moment.min_1.js"></script>
+    <script src="js/loader.js"></script>
+
+    <script src="js/ui-bootstrap-tpls.js"></script>
+    <script>
+        // Polyfill for deprecated/removed utility method needed by angular-sanitize
+        (function(a){a.lowercase=a.lowercase||function(t){return t?t.toLowerCase():t;};})(window.angular||{});
+    </script>
+    <script src="./src/jsfunctions/angular-sanitize.min.js"></script>
+
+    <script src="./src/jsfunctions/dialogs.js"></script>
+    <script src="./src/jsfunctions/pcxCommon.js"></script>
+    <script src="./src/jsfunctions/slider.js"></script>
+    <script src="./src/jsfunctions/appController.js"></script>
+    <script src="./src/jsfunctions/palChangeDialogController.js"></script>
+    <script src="./src/jsfunctions/palDialogController.js"></script>
+    <script src="./src/jsfunctions/directives.js"></script>
+    <script src="./src/jsfunctions/baseline.js"></script>
+    <script src="./src/jsfunctions/bodychange.js"></script>
+    <script src="./src/jsfunctions/bodymodel.js"></script>
+    <script src="./src/jsfunctions/dailyparams.js"></script>
+    <script src="./src/jsfunctions/intervention.js"></script>
+    <script src="./src/jsfunctions/constants.js"></script>
+    <script>
+      (function(){
+          'use strict';
+          var b = document.querySelector('.usa-banner'),
+              content = b.querySelector('.usa-banner__content');
+          b.querySelector('.usa-banner__button').addEventListener('click', function() {
+              var expand = this.getAttribute('aria-expanded') !== 'true';
+              if (expand) content.removeAttribute('hidden');
+              else content.setAttribute('hidden', '');
+              this.setAttribute('aria-expanded', expand);
+          });
+      })();
+  </script> 
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
